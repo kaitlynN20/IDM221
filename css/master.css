@@ -1,0 +1,94 @@
+/**
+Week 4 code 
+
+selector
+h1{
+	property value
+	color: navy; = declaration
+}
+
+#ID{}
+.ClASS{}
+
+<link
+	rel="stylesheet"
+	href="/css/master.css"
+	media="screen"
+>
+ normalize.css (add this to final html)
+
+ CSS3:
+ rgba: (red%, green%, blue%, opacity-value)
+
+* [
+	applies to every element
+]
+
+Descendant
+main li {}
+ul a {}
+
+order:
+!important {important rules in css}
+!important {rules in web page}
+normal rules in a web page
+normal rules in a user style sheet 
+default rules in the web browser
+
+**/
+
+/** keeps the entire background white**/
+@import url('css/normalize.css');
+
+#wrapper{
+	background-color: #EEEFF7;
+    width:100%;
+    margin: 0 auto;
+    color: black;
+
+}
+
+#wrapper h2{
+	color: #445878;
+}
+nav{
+	padding:20px;
+	padding-left: 0;
+	padding-top: 0;
+	width: 100%;
+}
+
+nav ul {
+	padding: 50px;
+	position: fixed;
+	word-spacing:100px;
+	text-align: center;
+	background: #dcaffe;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+
+}
+
+nav ul li {
+	display: inline;
+	list-style:none;
+	width: 100%;
+	text-decoration: none;
+	font-size: 1.75em;
+	
+}
+
+nav ul li a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav ul li a:visited{
+	color: #ffffff;
+}
+
+nav ul li a:hover{
+	color: #92cdff;
+}
+
