@@ -1,94 +1,156 @@
-/**
-Week 4 code 
-
-selector
-h1{
-	property value
-	color: navy; = declaration
-}
-
-#ID{}
-.ClASS{}
-
-<link
-	rel="stylesheet"
-	href="/css/master.css"
-	media="screen"
->
- normalize.css (add this to final html)
-
- CSS3:
- rgba: (red%, green%, blue%, opacity-value)
-
-* [
-	applies to every element
-]
-
-Descendant
-main li {}
-ul a {}
-
-order:
-!important {important rules in css}
-!important {rules in web page}
-normal rules in a web page
-normal rules in a user style sheet 
-default rules in the web browser
-
-**/
-
-/** keeps the entire background white**/
-@import url('css/normalize.css');
-
-#wrapper{
-	background-color: #EEEFF7;
-    width:100%;
-    margin: 0 auto;
-    color: black;
+@font-face {
+    font-family: 'vanillaregular';
+    src: url('../fonts/vanilla-webfont.woff2') format('woff2'),
+         url('../fonts/vanilla-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
-#wrapper h2{
-	color: #445878;
-}
-nav{
-	padding:20px;
-	padding-left: 0;
-	padding-top: 0;
-	width: 100%;
+@font-face {
+    font-family: 'soft_marshmallowregular';
+    src: url('../fonts/soft_marshmallow-webfont.woff2') format('woff2'),
+         url('../fonts/soft_marshmallow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-nav ul {
-	padding: 50px;
-	position: fixed;
-	word-spacing:100px;
+@font-face {
+    font-family: 'folksbold';
+    src: url('../fonts/folks-bold-webfont.woff2') format('woff2'),
+         url('../fonts/folks-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rampungregular';
+    src: url('../fonts/rampung-webfont.woff2') format('woff2'),
+         url('../fonts/rampung-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mayeka_demi_bold_demoregular';
+    src: url('../fonts/mayeka_demi_bold_demo-webfont.woff2') format('woff2'),
+         url('../fonts/mayeka_demi_bold_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rulukoregular';
+    src: url('../fonts/ruluko-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ruluko-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html{
+    font-size: 16px;
+}
+
+*{
+	margin: 0;
+    box-sizing:border-box;
+}
+
+#splash{
+	background: black;
+	padding:30%;
+}
+
+#splash p{
+	font-size: 3.125rem; /*50px */
+	color: white;
 	text-align: center;
-	background: #dcaffe;
-	width: 100%;
-	margin-top: 0;
-	margin-left: 0;
-
+	font-family: 'vanillaregular';
 }
 
-nav ul li {
-	display: inline;
-	list-style:none;
-	width: 100%;
-	text-decoration: none;
-	font-size: 1.75em;
-	
+#storytime p{
+	font-family: 'folksbold';
+	font-size: 1.875rem; /*30px*/
 }
 
-nav ul li a:link {
-	color: #ffffff;
-	text-decoration: none;
+#storytime{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
 }
 
-nav ul li a:visited{
-	color: #ffffff;
+#storytime .row{
+    width:100%;
+    padding: 1.25rem;
 }
 
-nav ul li a:hover{
-	color: #92cdff;
+#storytime .col1 .col2{
+   width: 33%;
+}
+
+#storytime .col1{
+    float:left;
+    padding-top:4.375rem;
+}
+
+#storytime .col2{
+    float: right;
+    padding-top: 4.375rem;
+    padding-right:0;
+    text-align: center;
+}
+
+#fostering{
+    padding:6.25rem;
+    padding-left:0;
+}
+
+#fostering h2{
+    font-family: 'vanillaregular';
+    font-size: 3.125rem;/*50px*/
+    text-align: center;
+}
+
+#fostering ul{
+    font-family: 'rulukoregular';
+    font-size: 1.5625rem;/*25px*/
+}
+
+
+#contact{
+    padding: 6.25rem;
+}
+
+#contact a:link{
+    color:black;
+    text-decoration: none;
+    font-family: 'soft_marshmallowregular';
+    font-size: 3.125rem;
+}
+
+#contact  a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color: blue;
+}
+
+#contact p{
+    font-family: 'vanillaregular';
+    font-size: 3.125rem;
+    padding-bottom: 1.875rem;
+}
+
+footer{
+    padding:2.5rem;
+    text-align:center;
 }
 
