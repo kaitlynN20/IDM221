@@ -1,0 +1,126 @@
+/*********** Contact Stylesheet *************/
+
+
+/******FONTS***********/
+@font-face {
+    font-family: 'vanillaregular';
+    src: url('../fonts/vanilla-webfont.woff2') format('woff2'),
+         url('../fonts/vanilla-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'folksbold';
+    src: url('../fonts/folks-bold-webfont.woff2') format('woff2'),
+         url('../fonts/folks-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rulukoregular';
+    src: url('../fonts/ruluko-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ruluko-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html {
+	font-size: 16px;
+}
+
+/*trail of paws*/
+#container img{
+    float:left;
+    padding-left: 2%;
+}
+
+/************Form Style**************/
+#form_container{
+    background: white;
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+    height: 830px;
+    /*border:1px solid #C3C3C3;*/
+
+    -webkit-box-shadow:2px 3px 2px rgba(0,0,0,.25) black;
+    -moz-box-shadow:2px 3px 2px rgba(0,0,0,.25) black;
+    -0-box-shadow:2px 3px 2px rgba(0,0,0,.25) black;
+    box-shadow:2px 3px 2px rgba(0,0,0,.25) black; 
+
+}
+
+#form_container h1{
+    font-family: 'vanillaregular';
+    text-align: center;
+}
+
+#form_container p{
+    font-family: 'rulukoregular';
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+form{
+    margin: 20px 20px 0;
+    padding: 0 0 20px;
+    font-family: 'folksbold';
+}
+
+/*Labels*/
+label {
+    border: none;
+    color: black;
+    display: block;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 150%;
+    padding: 0 0 1px;
+    font-family: 'folksbold';
+}
+
+
+/*input boxes*/
+
+input{
+  width:50%;
+  height: 30px;
+  font-size: 20px;
+}
+
+input.text {
+    background-color:white;
+    border-bottom: 1px solid #DDD;
+    border-left: 1px solid #C3C3C3;
+    border-right: 1px solid #C3C3C3;
+    border-top: 1px solid #7C7C7C;
+    color: black;
+    font-family: 'folksbold';
+    font-size: 100%;
+    margin: 0;
+    padding: 2px 0;
+}
+
+
+/*where users write message*/
+textarea {
+    background: white url(../../../images/shadow.gif) repeat-x top;
+    border-bottom: 1px solid #DDD;
+    border-left: 1px solid #C3C3C3;
+    border-right: 1px solid #C3C3C3;
+    border-top: 1px solid #7C7C7C;
+    color: black;
+    font-family: 'rulukoregular';
+    font-size: 100%;
+    margin: 0;
+    width: 99%;
+    height: 400px;
+}

@@ -1,3 +1,7 @@
+/*******************           Master Style Sheet      ***************/
+
+
+/******** FONTS *********/
 @font-face {
     font-family: 'vanillaregular';
     src: url('../fonts/vanilla-webfont.woff2') format('woff2'),
@@ -25,23 +29,6 @@
 
 }
 
-@font-face {
-    font-family: 'rampungregular';
-    src: url('../fonts/rampung-webfont.woff2') format('woff2'),
-         url('../fonts/rampung-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'mayeka_demi_bold_demoregular';
-    src: url('../fonts/mayeka_demi_bold_demo-webfont.woff2') format('woff2'),
-         url('../fonts/mayeka_demi_bold_demo-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 @font-face {
     font-family: 'rulukoregular';
@@ -52,15 +39,22 @@
 
 }
 
+/************************/
 
 html{
     font-size: 16px;
 }
 
+
+
 *{
 	margin: 0;
     box-sizing:border-box;
 }
+
+
+/**********SPLASH BACKGROUND**************/
+
 
 #splash{
 	background: black;
@@ -74,57 +68,117 @@ html{
 	font-family: 'vanillaregular';
 }
 
-#storytime p{
-	font-family: 'folksbold';
-	font-size: 1.875rem; /*30px*/
+
+/***************MAIN CONTENT*************************/
+
+
+#storytime {
+    font-family: 'folksbold';
+    font-size: 3rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align:center;
 }
 
-#storytime{
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-}
-
-#storytime .row{
+/** even row **/
+.rowO{
     width:100%;
-    padding: 1.25rem;
+    padding-bottom: 20%;
+    padding-top: 10%;
 }
 
-#storytime .col1 .col2{
-   width: 33%;
+img .pawO{
+    float: left;
 }
 
-#storytime .col1{
-    float:left;
-    padding-top:4.375rem;
+.pawO{
+    padding-right: 10%;
+    width:45%;
 }
 
-#storytime .col2{
+.imgO{
+    width:40%;
+}
+
+img .imgO{
     float: right;
-    padding-top: 4.375rem;
-    padding-right:0;
-    text-align: center;
 }
+
+/** odd row **/
+
+.rowE{
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+img .pawE{
+    float:right;
+}
+
+.pawE{
+    width: 40%;
+}
+
+img .imgE{
+    float:left;
+}
+
+.imgE{
+    width: 40%;
+}
+
+
+/** special image **/
+
+img .imgK{
+    float: right;
+}
+
+.imgK{
+    width: 41%;
+    padding-right: 15%;
+
+}
+
+/*****FOSTERING SECTION******/
 
 #fostering{
-    padding:6.25rem;
-    padding-left:0;
+    padding-top:25%;
 }
 
 #fostering h2{
     font-family: 'vanillaregular';
     font-size: 3.125rem;/*50px*/
+    width:100%;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 16%;
+}
+
+#fostering p{
+    font-family: 'rulukoregular';
+    font-size: 1.5625rem;/*25px*/
+    padding-bottom: 10%;
     text-align: center;
 }
 
-#fostering ul{
-    font-family: 'rulukoregular';
-    font-size: 1.5625rem;/*25px*/
+/**********CONTACT SECTION*******************/
+
+#contact {
+    padding: 16%;
 }
 
+#contact p{
+    text-align: center;
+}
 
-#contact{
-    padding: 6.25rem;
+.link1 {
+    float:left;
+}
+
+.link2{
+    float: right;
 }
 
 #contact a:link{
@@ -140,17 +194,20 @@ html{
 }
 
 #contact a:hover{
-    color: blue;
+    color: red;
 }
 
 #contact p{
     font-family: 'vanillaregular';
     font-size: 3.125rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: 3%;
 }
 
+
+/*********FOOTER**************/
 footer{
-    padding:2.5rem;
+    padding:1.5%;
     text-align:center;
+    font-family: 'soft_marshmallowregular';
 }
 
