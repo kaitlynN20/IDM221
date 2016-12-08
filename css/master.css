@@ -73,6 +73,9 @@ html{
 #splash a{
     position: absolute;
 }
+/*****************************************************************/
+
+
 
 
 /***************MAIN CONTENT*************************/
@@ -86,6 +89,7 @@ html{
     text-align:center;
 }
 
+/*smooth scroll for the arrow img*/
 .smoothScroll{
     width:100%;
 }
@@ -94,6 +98,7 @@ html{
     padding-top: 3%;
     text-align: center;
 }
+
 
 /** even row **/
 .rowO{
@@ -150,11 +155,12 @@ img .imgE{
     padding-left: 11.8%;
 }
 
-/*****FOSTERING SECTION******/
+/***********************************************************/
 
-#fostering{
-    padding-top:25%;
-}
+
+
+
+/*****FOSTERING SECTION******/
 
 #fostering h2{
     font-family: 'vanillaregular';
@@ -175,6 +181,12 @@ img .imgE{
     text-align: center;
     width: 100%;
 }
+
+/*************************************************************?
+
+
+
+
 
 /**********CONTACT SECTION*******************/
 
@@ -207,7 +219,7 @@ img .imgE{
 }
 
 #contact a:hover{
-    color: red;
+    color: purple;
 }
 
 #contact p{
@@ -216,6 +228,9 @@ img .imgE{
     padding-bottom: 3%;
 }
 
+/**********************************************************/
+
+
 
 /*********FOOTER**************/
 footer{
@@ -223,4 +238,5 @@ footer{
     text-align:center;
     font-family: 'soft_marshmallowregular';
 }
+/*********************************************************/
 

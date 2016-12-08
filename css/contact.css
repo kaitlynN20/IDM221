@@ -19,16 +19,7 @@
     font-style: normal;
 
 }
-
-@font-face {
-    font-family: 'rulukoregular';
-    src: url('../fonts/ruluko-regular-webfont.woff2') format('woff2'),
-         url('../fonts/ruluko-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
+/*********************/
 
 
 html {
@@ -48,12 +39,10 @@ html {
     text-align: left;
     width: 800px;
     height: 830px;
-    /*border:1px solid #C3C3C3;*/
+    
 
     -webkit-box-shadow:2px 3px 2px rgba(0,0,0,.25) black;
     -moz-box-shadow:2px 3px 2px rgba(0,0,0,.25) black;
-    -0-box-shadow:2px 3px 2px rgba(0,0,0,.25) black;
-    box-shadow:2px 3px 2px rgba(0,0,0,.25) black; 
 
 }
 
@@ -63,7 +52,6 @@ html {
 }
 
 #form_container p{
-    font-family: 'rulukoregular';
     text-align: center;
     font-size: 1.4rem;
 }
@@ -118,7 +106,6 @@ textarea {
     border-right: 1px solid #C3C3C3;
     border-top: 1px solid #7C7C7C;
     color: black;
-    font-family: 'rulukoregular';
     font-size: 100%;
     margin: 0;
     width: 99%;

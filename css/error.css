@@ -1,4 +1,4 @@
-/* ERROR PAGE*/
+/* ERROR STYLE SHEET*/
 
 /****************************/
 @font-face {
@@ -10,7 +10,7 @@
 }
 /*****************************/
 
-
+/*FIRST IMAGE*/
 #row {
     width:100%;
 }
@@ -22,16 +22,21 @@
     float: left;
 }
 
+/***********/
+
+
+
+/*LINK*/
 #linkE a{
     display: block;
     width: 500px;
     height: 500px;
     background: url('../images/bigorangepawE.svg') bottom;
     text-indent: -99999px;
-    text-align: 100%;
     padding-top: 20%;
     float: right;
     background-repeat: no-repeat;
+    color:white;
 
 }
 
@@ -39,7 +44,12 @@
     background-image: url('../images/bigorangepawE2.svg'); /*home appears in image*/
     background-repeat: no-repeat;
 }
+/****************/
 
+
+
+
+/*FOOTER*/
 footer{
 	width:100%;
     text-align:center;
@@ -47,3 +57,4 @@ footer{
     bottom: 0;
     font-family: 'soft_marshmallowregular';
 }
+/***********/

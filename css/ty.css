@@ -1,4 +1,6 @@
-/********FONTS************/
+/*THANK YOU STYLE SHEET*/
+
+/********************/
 @font-face {
     font-family: 'soft_marshmallowregular';
     src: url('../fonts/soft_marshmallow-webfont.woff2') format('woff2'),
@@ -15,7 +17,7 @@ html{
     font-size: 16px;
 }
 
-
+/*first image*/
 #row {
     width:100%;
 }
@@ -28,6 +30,11 @@ html{
 
 }
 
+/*************/
+
+
+
+/*Second Image*/
 #row2{
     width:100%;
 }
@@ -38,6 +45,12 @@ html{
     width: 20%;
 }
 
+/**************/
+
+
+
+
+/*LINK IMAGE*/
 #link {
     width:100%;
 }
@@ -58,6 +71,12 @@ html{
     background-repeat: no-repeat;
 }
 
+/*************/
+
+
+
+
+/*FOOTER*/
 footer{
     font-family: 'soft_marshmallowregular';
     width: 100%;
@@ -65,3 +84,4 @@ footer{
     position: absolute;
     bottom: 0;
 }
+/********/
