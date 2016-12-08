@@ -1,6 +1,6 @@
 /*******************           Master Style Sheet      ***************/
 
-@import url('cs/normalize.css');
+@import url('css/normalize.css');
 
 /******** FONTS *********/
 @font-face {
@@ -41,7 +41,7 @@ html{
 
 *{
 	margin: 0;
-    box-sizing:border-box;
+    box-sizing:border-box
 }
 
 
