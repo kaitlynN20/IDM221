@@ -10,17 +10,16 @@
 	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
-<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 300 300" xml:space="preserve" height="300px" width="300px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 50 50" xml:space="preserve" height="50px" viewBox="0 0 50 50" width="50px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink">
 <switch>
 	<foreignObject y="0" x="0" height="1" width="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
 	</foreignObject>
 	<g>
-		<g id="Layer_1">
-			<circle r="94.167" cy="140.6" stroke="#ED1C24" cx="153.82" stroke-miterlimit="10" stroke-width="13" fill="#fff"/>
-		</g>
-		<g id="Layer_2">
-			<path d="m188.99 176.79c1.064 1.418-0.028 4.033-2.44 5.845-2.415 1.812-5.233 2.127-6.299 0.71l-35.29-47.05c-1.062-1.419 0.031-4.036 2.445-5.846 2.413-1.812 5.23-2.129 6.296-0.71l35.29 47.05z"/>
-			<path d="m206.86 113.84c1.71-0.468 3.74 1.511 4.537 4.42 0.796 2.912 0.052 5.649-1.658 6.118l-56.731 15.505c-1.71 0.465-3.741-1.515-4.536-4.426-0.796-2.91-0.055-5.646 1.657-6.115l56.73-15.5z"/>
+		<g fill="#27AAE1">
+			<circle cy="29.753" cx="28.977" r="16.136"/>
+			<circle cy="20.297" cx="7.941" r="4.279"/>
+			<circle cy="9.109" cx="20.511" r="4.547"/>
+			<circle cy="8.476" cx="37.239" r="4.369"/>
 		</g>
 	</g>
 </switch>

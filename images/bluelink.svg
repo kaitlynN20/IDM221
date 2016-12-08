@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 500 500" xml:space="preserve" height="500px" viewBox="0 0 500 500" width="500px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink">
+<switch>
+	<foreignObject y="0" x="0" height="1" width="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+	</foreignObject>
+	<g>
+		<g fill="#1C75BC">
+				<ellipse rx="131.39" ry="133.08" transform="matrix(.9215 .3884 -.3884 .9215 119.26 -66.574)" cy="261.76" cx="224.33"/>
+			<path d="m199.44 94.886c-7.568 17.961-28.082 26.465-45.814 18.993-17.735-7.474-25.971-28.095-18.401-46.056s28.08-26.462 45.814-18.989c17.74 7.471 25.98 28.088 18.4 46.051z"/>
+				<ellipse rx="37.019" ry="37.499" transform="matrix(.9215 .3884 -.3884 .9215 61.032 -110.45)" cy="95.756" cx="303.74"/>
+			<path d="m431.4 207.8c-7.727 18.334-28.664 27.014-46.768 19.384-18.1-7.627-26.512-28.677-18.783-47.013 7.727-18.334 28.668-27.014 46.766-19.386 18.1 7.64 26.5 28.68 18.78 47.02z"/>
+		</g>
+		<g fill="#fff">
+			<polygon points="221.71 293.52 159.34 257.83 221.43 221.66"/>
+			<path d="m267.21 236.5c4.396-0.018 7.971 2.214 7.982 4.985l0.125 31.773c0.012 2.771-3.545 5.031-7.943 5.049l-50.435 0.2c-4.397 0.016-7.972-2.216-7.982-4.987l-0.126-31.773c-0.011-2.77 3.546-5.031 7.944-5.049l50.44-0.19z"/>
+		</g>
+	</g>
+</switch>
+</svg>
