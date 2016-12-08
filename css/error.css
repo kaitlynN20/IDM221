@@ -1,0 +1,49 @@
+/* ERROR PAGE*/
+
+/****************************/
+@font-face {
+    font-family: 'soft_marshmallowregular';
+    src: url('../fonts/soft_marshmallow-webfont.woff2') format('woff2'),
+         url('../fonts/soft_marshmallow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*****************************/
+
+
+#row {
+    width:100%;
+}
+
+#row img{
+    padding-left:0;
+    text-align: center;
+    width: 60%;
+    float: left;
+}
+
+#linkE a{
+    display: block;
+    width: 500px;
+    height: 500px;
+    background: url('../images/bigorangepawE.svg') bottom;
+    text-indent: -99999px;
+    text-align: 100%;
+    padding-top: 20%;
+    float: right;
+    background-repeat: no-repeat;
+
+}
+
+#linkE a:hover{
+    background-image: url('../images/bigorangepawE2.svg'); /*home appears in image*/
+    background-repeat: no-repeat;
+}
+
+footer{
+	width:100%;
+    text-align:center;
+    position: absolute;
+    bottom: 0;
+    font-family: 'soft_marshmallowregular';
+}

@@ -12,15 +12,6 @@
 }
 
 @font-face {
-    font-family: 'soft_marshmallowregular';
-    src: url('../fonts/soft_marshmallow-webfont.woff2') format('woff2'),
-         url('../fonts/soft_marshmallow-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'folksbold';
     src: url('../fonts/folks-bold-webfont.woff2') format('woff2'),
          url('../fonts/folks-bold-webfont.woff') format('woff');
@@ -29,15 +20,15 @@
 
 }
 
-
 @font-face {
-    font-family: 'rulukoregular';
-    src: url('../fonts/ruluko-regular-webfont.woff2') format('woff2'),
-         url('../fonts/ruluko-regular-webfont.woff') format('woff');
+    font-family: 'soft_marshmallowregular';
+    src: url('../fonts/soft_marshmallow-webfont.woff2') format('woff2'),
+         url('../fonts/soft_marshmallow-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
 
 /************************/
 
@@ -58,14 +49,29 @@ html{
 
 #splash{
 	background: black;
-	padding:30%;
+    height: 861px;
+    width:100%;
 }
 
 #splash p{
 	font-size: 3.125rem; /*50px */
 	color: white;
+    width: 100%;
 	text-align: center;
+    line-height: 50px; 
+    padding-top: 7%;
 	font-family: 'vanillaregular';
+}
+
+#splash img{
+    margin: auto 0;
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 12%;
+}
+
+#splash a{
+    position: absolute;
 }
 
 
@@ -78,6 +84,15 @@ html{
     margin: 0 auto;
     width: 100%;
     text-align:center;
+}
+
+.smoothScroll{
+    width:100%;
+}
+
+.link{
+    padding-top: 3%;
+    text-align: center;
 }
 
 /** even row **/
@@ -131,14 +146,8 @@ img .imgE{
 
 /** special image **/
 
-img .imgK{
-    float: right;
-}
-
 .imgK{
-    width: 41%;
-    padding-right: 15%;
-
+    padding-left: 11.8%;
 }
 
 /*****FOSTERING SECTION******/
@@ -157,10 +166,14 @@ img .imgK{
 }
 
 #fostering p{
-    font-family: 'rulukoregular';
-    font-size: 1.5625rem;/*25px*/
-    padding-bottom: 10%;
+    font-family: 'folksbold';
+    font-size: 2rem;
     text-align: center;
+}
+
+#fostering .pic{
+    text-align: center;
+    width: 100%;
 }
 
 /**********CONTACT SECTION*******************/
