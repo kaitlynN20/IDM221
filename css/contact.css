@@ -1,6 +1,6 @@
 /*********** Contact Stylesheet *************/
 
-
+@import url('cs/normalize.css');
 /******FONTS***********/
 @font-face {
     font-family: 'vanillaregular';

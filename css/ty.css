@@ -1,5 +1,6 @@
 /*THANK YOU STYLE SHEET*/
 
+@import url('cs/normalize.css');
 /********************/
 @font-face {
     font-family: 'soft_marshmallowregular';
